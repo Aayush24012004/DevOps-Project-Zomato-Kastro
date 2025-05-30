@@ -15,7 +15,7 @@ spec:
         app: zomato
     spec:
       containers:
-      - name: zomato
-        image: kastrov/zomato:latest
-        ports:
-        - containerPort: 3000
+        - name: zomato
+          image: aayush24012004/zomato:latest
+          ports:
+            - containerPort: 3000
